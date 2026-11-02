@@ -61,7 +61,7 @@ The data contained deliberate real-world inconsistencies. Steps taken:
 
 **Final dataset: 11,979 transactions.**
 
-Full documentation: [`Data Cleaning Documentation.pdf`](Data_Cleaning_Documentation.pdf)
+Full documentation: [Data Cleaning Documentation](Docs/Data%20Cleaning%20Documentation.pdf)
 
 ## Analysis Approach
 
@@ -95,7 +95,7 @@ Alert performance was measured with:
 3. **Reduce false alarms without missing fraud:** tune alert rules to improve precision while keeping recall at 100%.
 4. **Re-run the analysis with post-breach data** to test the exposure-to-fraud link properly.
 
-Full documentation: [`Analysis Report.pdf`](Analysis Report.pdf)
+Full documentation: [Analysis Report](Docs/Analysis%20Report.pdf)
 
 ## Limitations
 
