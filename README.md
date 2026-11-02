@@ -2,7 +2,7 @@
 
 An end-to-end analysis of how a customer data breach affected fraud, risk and financial performance at a fictional Nigerian bank, delivered as a 3-page Power BI dashboard for the CEO, CRO and CFO. This project was done as part of the Databeauty Tribe Business Challenge, Case 002 (BCS-002).
 
-![CEO](DBT_Images/CEO.png)
+![CEO](dbt_images/CEO.png)
 
 ## Table of Contents
 - [Business Problem](#business-problem)
@@ -61,7 +61,7 @@ The data contained deliberate real-world inconsistencies. Steps taken:
 
 **Final dataset: 11,979 transactions.**
 
-Full documentation: [`docs/Data_Cleaning_Documentation.docx`](docs/Data_Cleaning_Documentation.docx)
+Full documentation: [`docs/Data_Cleaning_Documentation.pdf`](docs/Data_Cleaning_Documentation.pdf)
 
 ## Analysis Approach
 
@@ -85,8 +85,8 @@ Alert performance was measured with:
 - **Risk is concentrated** in the North Central region, branches 13 and 17, and the Corporate and Retail segments.
 - By age, customers **65+ had the highest fraud rate (0.99%)**, followed by 45 to 54.
 
-![CRO](DBT_Images/CRO.png)
-![CFO](DBT_Images/CFO.png)
+![CRO](dbt_images/CRO.png)
+![CFO](dbt_images/CFO.png)
 
 ## Recommendations
 
@@ -94,6 +94,8 @@ Alert performance was measured with:
 2. **Strengthen monitoring in high-risk areas:** North Central, branches 13 and 17, Corporate and Retail customers, and older customers.
 3. **Reduce false alarms without missing fraud:** tune alert rules to improve precision while keeping recall at 100%.
 4. **Re-run the analysis with post-breach data** to test the exposure-to-fraud link properly.
+
+Full documentation: [`docs/Analysis Report.pdf`](docs/Analysis Report.pdf)
 
 ## Limitations
 
@@ -109,7 +111,6 @@ finova-data-breach-analysis/
 │   └── Finova_fraud_analysis.sql
 ├── dashboard/
 │   ├── Finova_Analysis.pbix
-│   └── screenshots/
 ├── docs/
 │   ├── Data_Cleaning_Documentation.pdf
 │   └── Analysis_Report.pdf
@@ -128,7 +129,7 @@ finova-data-breach-analysis/
 
 ## Author
 
-**Eseonu Rejoice Adaeze (Ree)**, pharmacy graduate transitioning into data analytics.
+**Eseonu Rejoice Adaeze**, pharmacy graduate transitioning into data analytics.
 
 - LinkedIn: [www.linkedin.com/in/eseonu-rejoice-adaeze-999488413]
 - Medium article: [(https://medium.com/@rejoice2306/when-customer-data-leaks-where-does-the-fraud-show-up-analyzing-the-finova-data-breach-fc691dba245b)]
