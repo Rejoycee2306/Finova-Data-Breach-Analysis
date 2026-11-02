@@ -61,7 +61,7 @@ The data contained deliberate real-world inconsistencies. Steps taken:
 
 **Final dataset: 11,979 transactions.**
 
-Full documentation: [`docs/Data_Cleaning_Documentation.pdf`](docs/Data_Cleaning_Documentation.pdf)
+Full documentation: [`Docs/Data Cleaning Documentation.pdf`](Docs/Data_Cleaning_Documentation.pdf)
 
 ## Analysis Approach
 
@@ -95,7 +95,7 @@ Alert performance was measured with:
 3. **Reduce false alarms without missing fraud:** tune alert rules to improve precision while keeping recall at 100%.
 4. **Re-run the analysis with post-breach data** to test the exposure-to-fraud link properly.
 
-Full documentation: [`docs/Analysis Report.pdf`](docs/Analysis Report.pdf)
+Full documentation: [`Docs/Analysis Report.pdf`](Docs/Analysis Report.pdf)
 
 ## Limitations
 
@@ -112,8 +112,8 @@ finova-data-breach-analysis/
 ├── dashboard/
 │   ├── Finova_Analysis.pbix
 ├── docs/
-│   ├── Data_Cleaning_Documentation.pdf
-│   └── Analysis_Report.pdf
+│   ├── Data Cleaning Documentation.pdf
+│   └── Analysis Report.pdf
 └── DBT_Images/
     ├── data_model.png
     ├── CEO.png
